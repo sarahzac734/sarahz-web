@@ -15,15 +15,20 @@ export default function Home() {
         
         <div className="mt-25 text-center font-bold text-4xl">PROJECTS</div>
         <div className="mt-25 grid grid-cols-2">
+
+            <Link href="https://github.com/sarahzac734/timesheet-project" >
             <div className="mx-auto w-80 h-80 lg:w-120 lg:h-100 rounded-3xl bg-stone-100">
             <div className="text-black text-center font-bold text-xl px-10 pt-10">Developing a time sheet simulator which uses the tree data structure to store employees with their timesheet information  </div>
             <div className="text-black  font-extrabold px-10 pt-10">Developed using: Java, Threads </div>
             </div>
+            </Link>
 
+            <Link href="https://github.com/sarahzac734/salary-prediction-project" >
             <div className="mx-auto w-80 h-80 lg:w-120 lg:h-100 rounded-3xl bg-stone-100">
              <div className="text-black text-center font-bold text-xl px-10 pt-10">Developing a salary predictor  </div>
               <div className="text-black  font-extrabold px-10 pt-10">Developed using: Python, Pandas ... </div>
             </div>
+            </Link>
         </div>
 
         <Link href="https://github.com/sarahzac734/church-website" >
