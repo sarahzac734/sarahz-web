@@ -8,7 +8,7 @@ export default function Home() {
 
        <div className="mt-40 w-200 h-140 pt-10 mx-auto  text-black rounded-3xl bg-stone-100">
           <img className="rounded-2xl mx-auto" src="/sarah.jpg" width={200} height={20}/>
-          <p className="mt-4 text-center font-bold text-4xl">Hi I'm Sarah!</p>
+          <p className="mt-4 text-center font-bold text-4xl">{'Hi I\'m Sarah!'}</p>
           <p className="text-center text-xl font-extrabold mt-4" >I am a Computer Science Student at the University of Maryland, College Park. <br/> I am a passionate student who is eager to learn and interested in the fields of: Full Stack Web - Development, Machine Learning, and Data Science  </p>   
         </div>
         </div>  
