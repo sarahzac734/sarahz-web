@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <div className="">
+      <div>
 
        <div className="mt-40 w-200 h-140 pt-10 mx-auto  text-black rounded-3xl bg-stone-100">
           <img className="rounded-2xl mx-auto" src="/sarah.jpg" width={200} height={20}/>
